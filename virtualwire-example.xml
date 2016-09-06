@@ -1,0 +1,42 @@
+<virtualWires>
+<sortedDataPage>
+<datapart class="virtualWire">
+<objectId>virtualwire-1</objectId>
+<name>vWire1</name>
+<description>logical switch 1</description>
+<tenantId>logical switch tenant</tenantId>
+<revision>0</revision>
+<vdnScopeId>vdnscope-7</vdnScopeId>
+<vdsContextWithBacking>
+<teaming>ETHER_CHANNEL</teaming>
+<switchId>dvs-81</switchId>
+<backingType>portgroup</backingType>
+<backingValue>dvportgroup-88</backingValue>
+</vdsContextWithBacking>
+<vdnId>5002</vdnId>
+<multicastAddr>239.0.0.3</multicastAddr>
+</datapart>
+<datapart class="virtualWire">
+<objectId>virtualwire-2</objectId>
+<name>vWire2</name>
+<description>logical switch 2</description>
+<tenantId>logical switch tenant</tenantId>
+<revision>0</revision>
+<vdnScopeId>vdnscope-7</vdnScopeId>
+<vdsContextWithBacking>
+<teaming>ETHER_CHANNEL</teaming>
+<switchId>dvs-81</switchId>
+<backingType>portgroup</backingType>
+<backingValue>dvportgroup-88</backingValue>
+</vdsContextWithBacking>
+<vdnId>5002</vdnId>
+<multicastAddr>239.0.0.4</multicastAddr>
+</datapart>
+<pagingInfo>
+<pageSize>20</pageSize>
+<startIndex>0</startIndex>
+<totalCount>2</totalCount>
+<sortOrderAscending>false</sortOrderAscending>
+</pagingInfo>
+</sortedDataPage>
+</virtualWires>
